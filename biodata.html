@@ -2,6 +2,35 @@
     <title>
         Personal blog
     </title>
+    <style>
+      body {
+          margin: 0;
+          overflow: hidden;
+      }
+
+      video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          z-index: -1;
+      }
+
+      /* Optional: Add additional styling for content on top of the video */
+      .content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fff;
+          text-align: center;
+          font-size: 2em;
+      }
+  </style>
     <link rel="stylesheet" href="bio.css">
     <marquee><u><b>
       <font color="red">WELCOME  TO  MY  WEB  PAGE</font>
@@ -11,6 +40,15 @@
       <tr><th><a href="biodata.html">Home</a></th><th><a href="pact2.html">Students</a></th><th><a href="part2 pac2.html">Apple</a></th><th><a href="ca1.html">Books</a></th><th><a href="part3 pac2.html">End</a></tr>
     </table>
     <body align="center">
+      <video autoplay muted loop>
+        <source src="grasp-of-the-abyss-moewalls-com.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Optional: Add content on top of the video -->
+    <div class="content">
+        <p>Your content goes here.</p>
+    </div>
         <h1 align="center"><u><b> 
             BIODATA
 
